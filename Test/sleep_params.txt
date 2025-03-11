@@ -1,0 +1,15 @@
+path,./Test/
+files,test_eeg_rr05.csv
+clinical,./Test/test_clinical.csv 
+target,sleep  
+tensor,True 
+rank,3
+tensor_method,tensorly
+REGRESS,False
+EDF_FORMAT,edf
+max_nt,30
+resampling,200
+covariates,Age,BECTS
+channels,C3,C4,F3,F4,F7,F8,P3,P4,O1,O2
+
+
